@@ -1,0 +1,4055 @@
+# Created at 2020-03-18T19:23:19.440
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+
+
+# Created at 2020-03-18T19:23:24.863
+Unexpected IOException with stream: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'more' at row 1
+
+# Created at 2020-03-18T19:23:24.864
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.864
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+
+# Created at 2020-03-18T19:23:24.864
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.865
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1393)
+
+# Created at 2020-03-18T19:23:24.865
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.866
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2353)
+
+# Created at 2020-03-18T19:23:24.866
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.866
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1303)
+
+# Created at 2020-03-18T19:23:24.867
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.867
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.MySqlConnection.sqlStatementExecute(MySqlConnection.java:50)
+
+# Created at 2020-03-18T19:23:24.868
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.868
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.wordToDataBase(DataToDataBase.java:70)
+
+# Created at 2020-03-18T19:23:24.868
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.869
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.<init>(DataToDataBase.java:21)
+
+# Created at 2020-03-18T19:23:24.869
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.870
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBaseTest.shouldAnswerWithTrue(DataToDataBaseTest.java:22)
+
+# Created at 2020-03-18T19:23:24.870
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.870
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-03-18T19:23:24.871
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.871
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-03-18T19:23:24.871
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.872
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-03-18T19:23:24.872
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.872
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+
+# Created at 2020-03-18T19:23:24.873
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.873
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+
+# Created at 2020-03-18T19:23:24.873
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.874
+Unexpected IOException with stream: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+
+# Created at 2020-03-18T19:23:24.874
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.874
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+
+# Created at 2020-03-18T19:23:24.875
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.875
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+
+# Created at 2020-03-18T19:23:24.875
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.876
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+
+# Created at 2020-03-18T19:23:24.876
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.876
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+
+# Created at 2020-03-18T19:23:24.877
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.877
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+
+# Created at 2020-03-18T19:23:24.877
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.878
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+
+# Created at 2020-03-18T19:23:24.878
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.878
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+
+# Created at 2020-03-18T19:23:24.879
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.879
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+
+# Created at 2020-03-18T19:23:24.879
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.880
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+
+# Created at 2020-03-18T19:23:24.880
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.880
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+
+# Created at 2020-03-18T19:23:24.881
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.881
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+
+# Created at 2020-03-18T19:23:24.882
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.882
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2020-03-18T19:23:24.882
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.883
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2020-03-18T19:23:24.883
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.883
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2020-03-18T19:23:24.884
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.884
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2020-03-18T19:23:24.884
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.885
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-03-18T19:23:24.905
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.905
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-03-18T19:23:24.906
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.906
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-03-18T19:23:24.906
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:24.907
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-03-18T19:23:24.907
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.707
+Unexpected IOException with stream: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'more' at row 1
+
+# Created at 2020-03-18T19:23:29.707
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.708
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+
+# Created at 2020-03-18T19:23:29.708
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.708
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1393)
+
+# Created at 2020-03-18T19:23:29.709
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.709
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2353)
+
+# Created at 2020-03-18T19:23:29.709
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.710
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1303)
+
+# Created at 2020-03-18T19:23:29.710
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.710
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.MySqlConnection.sqlStatementExecute(MySqlConnection.java:50)
+
+# Created at 2020-03-18T19:23:29.710
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.711
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.wordToDataBase(DataToDataBase.java:70)
+
+# Created at 2020-03-18T19:23:29.711
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.711
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.<init>(DataToDataBase.java:21)
+
+# Created at 2020-03-18T19:23:29.712
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.712
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBaseTest.shouldAnswerWithTrue(DataToDataBaseTest.java:22)
+
+# Created at 2020-03-18T19:23:29.713
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.713
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-03-18T19:23:29.713
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.713
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-03-18T19:23:29.714
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.714
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-03-18T19:23:29.714
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.715
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+
+# Created at 2020-03-18T19:23:29.715
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.715
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+
+# Created at 2020-03-18T19:23:29.716
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.716
+Unexpected IOException with stream: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+
+# Created at 2020-03-18T19:23:29.716
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.716
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+
+# Created at 2020-03-18T19:23:29.717
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.717
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+
+# Created at 2020-03-18T19:23:29.717
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.718
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+
+# Created at 2020-03-18T19:23:29.718
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.718
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+
+# Created at 2020-03-18T19:23:29.719
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.719
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+
+# Created at 2020-03-18T19:23:29.719
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.720
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+
+# Created at 2020-03-18T19:23:29.720
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.720
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+
+# Created at 2020-03-18T19:23:29.721
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.721
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+
+# Created at 2020-03-18T19:23:29.721
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.721
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+
+# Created at 2020-03-18T19:23:29.722
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.722
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+
+# Created at 2020-03-18T19:23:29.722
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.722
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+
+# Created at 2020-03-18T19:23:29.723
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.723
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2020-03-18T19:23:29.723
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.724
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2020-03-18T19:23:29.724
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.724
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2020-03-18T19:23:29.724
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.725
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2020-03-18T19:23:29.725
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.725
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-03-18T19:23:29.726
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.726
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-03-18T19:23:29.726
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.726
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-03-18T19:23:29.727
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:29.727
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-03-18T19:23:29.727
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.926
+Unexpected IOException with stream: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'more' at row 1
+
+# Created at 2020-03-18T19:23:34.927
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.927
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+
+# Created at 2020-03-18T19:23:34.927
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.927
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1393)
+
+# Created at 2020-03-18T19:23:34.928
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.928
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2353)
+
+# Created at 2020-03-18T19:23:34.929
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.929
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1303)
+
+# Created at 2020-03-18T19:23:34.929
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.929
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.MySqlConnection.sqlStatementExecute(MySqlConnection.java:50)
+
+# Created at 2020-03-18T19:23:34.930
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.930
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.wordToDataBase(DataToDataBase.java:70)
+
+# Created at 2020-03-18T19:23:34.930
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.931
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.<init>(DataToDataBase.java:21)
+
+# Created at 2020-03-18T19:23:34.931
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.931
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBaseTest.shouldAnswerWithTrue(DataToDataBaseTest.java:22)
+
+# Created at 2020-03-18T19:23:34.931
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.932
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-03-18T19:23:34.932
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.932
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-03-18T19:23:34.932
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.933
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-03-18T19:23:34.933
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.933
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+
+# Created at 2020-03-18T19:23:34.934
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.934
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+
+# Created at 2020-03-18T19:23:34.934
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.935
+Unexpected IOException with stream: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+
+# Created at 2020-03-18T19:23:34.935
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.935
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+
+# Created at 2020-03-18T19:23:34.935
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.936
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+
+# Created at 2020-03-18T19:23:34.936
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.936
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+
+# Created at 2020-03-18T19:23:34.936
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.937
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+
+# Created at 2020-03-18T19:23:34.937
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.937
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+
+# Created at 2020-03-18T19:23:34.938
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.938
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+
+# Created at 2020-03-18T19:23:34.938
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.938
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+
+# Created at 2020-03-18T19:23:34.939
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.939
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+
+# Created at 2020-03-18T19:23:34.939
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.939
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+
+# Created at 2020-03-18T19:23:34.940
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.940
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+
+# Created at 2020-03-18T19:23:34.940
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.940
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+
+# Created at 2020-03-18T19:23:34.941
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.941
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2020-03-18T19:23:34.941
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.942
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2020-03-18T19:23:34.942
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.942
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2020-03-18T19:23:34.942
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.943
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2020-03-18T19:23:34.943
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.943
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-03-18T19:23:34.943
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.944
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-03-18T19:23:34.944
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.944
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-03-18T19:23:34.944
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:34.945
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-03-18T19:23:34.945
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.397
+Unexpected IOException with stream: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'more' at row 1
+
+# Created at 2020-03-18T19:23:37.398
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.398
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+
+# Created at 2020-03-18T19:23:37.398
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.399
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1393)
+
+# Created at 2020-03-18T19:23:37.399
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.399
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2353)
+
+# Created at 2020-03-18T19:23:37.400
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.400
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1303)
+
+# Created at 2020-03-18T19:23:37.400
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.400
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.MySqlConnection.sqlStatementExecute(MySqlConnection.java:50)
+
+# Created at 2020-03-18T19:23:37.401
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.401
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.wordToDataBase(DataToDataBase.java:70)
+
+# Created at 2020-03-18T19:23:37.401
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.402
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.<init>(DataToDataBase.java:21)
+
+# Created at 2020-03-18T19:23:37.402
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.402
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBaseTest.shouldAnswerWithTrue(DataToDataBaseTest.java:22)
+
+# Created at 2020-03-18T19:23:37.403
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.403
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-03-18T19:23:37.403
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.403
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-03-18T19:23:37.404
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.404
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-03-18T19:23:37.404
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.404
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+
+# Created at 2020-03-18T19:23:37.405
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.405
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+
+# Created at 2020-03-18T19:23:37.405
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.405
+Unexpected IOException with stream: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+
+# Created at 2020-03-18T19:23:37.406
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.406
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+
+# Created at 2020-03-18T19:23:37.407
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.407
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+
+# Created at 2020-03-18T19:23:37.407
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.407
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+
+# Created at 2020-03-18T19:23:37.408
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.408
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+
+# Created at 2020-03-18T19:23:37.408
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.409
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+
+# Created at 2020-03-18T19:23:37.409
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.409
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+
+# Created at 2020-03-18T19:23:37.409
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.410
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+
+# Created at 2020-03-18T19:23:37.410
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.410
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+
+# Created at 2020-03-18T19:23:37.410
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.411
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+
+# Created at 2020-03-18T19:23:37.411
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.411
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+
+# Created at 2020-03-18T19:23:37.412
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.412
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+
+# Created at 2020-03-18T19:23:37.412
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.412
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2020-03-18T19:23:37.413
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.413
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2020-03-18T19:23:37.413
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.413
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2020-03-18T19:23:37.414
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.414
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2020-03-18T19:23:37.414
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.415
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-03-18T19:23:37.415
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.415
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-03-18T19:23:37.415
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.416
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-03-18T19:23:37.416
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:37.416
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-03-18T19:23:37.416
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.272
+Unexpected IOException with stream: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'more' at row 1
+
+# Created at 2020-03-18T19:23:42.272
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.273
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+
+# Created at 2020-03-18T19:23:42.273
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.273
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1393)
+
+# Created at 2020-03-18T19:23:42.274
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.274
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2353)
+
+# Created at 2020-03-18T19:23:42.274
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.274
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1303)
+
+# Created at 2020-03-18T19:23:42.275
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.275
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.MySqlConnection.sqlStatementExecute(MySqlConnection.java:50)
+
+# Created at 2020-03-18T19:23:42.275
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.275
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.wordToDataBase(DataToDataBase.java:70)
+
+# Created at 2020-03-18T19:23:42.276
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.276
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.<init>(DataToDataBase.java:21)
+
+# Created at 2020-03-18T19:23:42.276
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.276
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBaseTest.shouldAnswerWithTrue(DataToDataBaseTest.java:22)
+
+# Created at 2020-03-18T19:23:42.277
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.277
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-03-18T19:23:42.277
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.277
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-03-18T19:23:42.278
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.278
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-03-18T19:23:42.278
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.278
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+
+# Created at 2020-03-18T19:23:42.279
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.279
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+
+# Created at 2020-03-18T19:23:42.279
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.279
+Unexpected IOException with stream: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+
+# Created at 2020-03-18T19:23:42.280
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.280
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+
+# Created at 2020-03-18T19:23:42.280
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.280
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+
+# Created at 2020-03-18T19:23:42.281
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.281
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+
+# Created at 2020-03-18T19:23:42.281
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.281
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+
+# Created at 2020-03-18T19:23:42.282
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.282
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+
+# Created at 2020-03-18T19:23:42.282
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.283
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+
+# Created at 2020-03-18T19:23:42.283
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.283
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+
+# Created at 2020-03-18T19:23:42.283
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.284
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+
+# Created at 2020-03-18T19:23:42.284
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.284
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+
+# Created at 2020-03-18T19:23:42.284
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.285
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+
+# Created at 2020-03-18T19:23:42.285
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.285
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+
+# Created at 2020-03-18T19:23:42.285
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.286
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2020-03-18T19:23:42.286
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.286
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2020-03-18T19:23:42.286
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.287
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2020-03-18T19:23:42.287
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.287
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2020-03-18T19:23:42.287
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.288
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-03-18T19:23:42.288
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.288
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-03-18T19:23:42.288
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.289
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-03-18T19:23:42.289
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:42.289
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-03-18T19:23:42.289
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.035
+Unexpected IOException with stream: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'more' at row 1
+
+# Created at 2020-03-18T19:23:48.035
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.036
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+
+# Created at 2020-03-18T19:23:48.036
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.036
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1393)
+
+# Created at 2020-03-18T19:23:48.037
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.037
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2353)
+
+# Created at 2020-03-18T19:23:48.037
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.038
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1303)
+
+# Created at 2020-03-18T19:23:48.038
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.038
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.MySqlConnection.sqlStatementExecute(MySqlConnection.java:50)
+
+# Created at 2020-03-18T19:23:48.038
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.039
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.wordToDataBase(DataToDataBase.java:70)
+
+# Created at 2020-03-18T19:23:48.039
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.039
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.<init>(DataToDataBase.java:21)
+
+# Created at 2020-03-18T19:23:48.040
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.040
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBaseTest.shouldAnswerWithTrue(DataToDataBaseTest.java:22)
+
+# Created at 2020-03-18T19:23:48.040
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.041
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-03-18T19:23:48.041
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.041
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-03-18T19:23:48.041
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.042
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-03-18T19:23:48.042
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.042
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+
+# Created at 2020-03-18T19:23:48.042
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.043
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+
+# Created at 2020-03-18T19:23:48.043
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.043
+Unexpected IOException with stream: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+
+# Created at 2020-03-18T19:23:48.043
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.044
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+
+# Created at 2020-03-18T19:23:48.044
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.044
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+
+# Created at 2020-03-18T19:23:48.044
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.045
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+
+# Created at 2020-03-18T19:23:48.045
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.045
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+
+# Created at 2020-03-18T19:23:48.045
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.046
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+
+# Created at 2020-03-18T19:23:48.046
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.046
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+
+# Created at 2020-03-18T19:23:48.046
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.047
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+
+# Created at 2020-03-18T19:23:48.047
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.047
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+
+# Created at 2020-03-18T19:23:48.047
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.048
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+
+# Created at 2020-03-18T19:23:48.048
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.048
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+
+# Created at 2020-03-18T19:23:48.048
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.049
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+
+# Created at 2020-03-18T19:23:48.049
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.049
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2020-03-18T19:23:48.049
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.050
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2020-03-18T19:23:48.050
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.050
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2020-03-18T19:23:48.050
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.050
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2020-03-18T19:23:48.051
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.051
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-03-18T19:23:48.051
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.051
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-03-18T19:23:48.052
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.052
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-03-18T19:23:48.052
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.052
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-03-18T19:23:48.053
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.118
+Unexpected IOException with stream: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'more' at row 1
+
+# Created at 2020-03-18T19:23:48.119
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.119
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+
+# Created at 2020-03-18T19:23:48.119
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.119
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1393)
+
+# Created at 2020-03-18T19:23:48.120
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.120
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2353)
+
+# Created at 2020-03-18T19:23:48.120
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.121
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1303)
+
+# Created at 2020-03-18T19:23:48.121
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.121
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.MySqlConnection.sqlStatementExecute(MySqlConnection.java:50)
+
+# Created at 2020-03-18T19:23:48.122
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.122
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.wordToDataBase(DataToDataBase.java:70)
+
+# Created at 2020-03-18T19:23:48.122
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.123
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.<init>(DataToDataBase.java:21)
+
+# Created at 2020-03-18T19:23:48.123
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.123
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBaseTest.shouldAnswerWithTrue(DataToDataBaseTest.java:22)
+
+# Created at 2020-03-18T19:23:48.123
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.124
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-03-18T19:23:48.124
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.124
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-03-18T19:23:48.125
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.125
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-03-18T19:23:48.125
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.125
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+
+# Created at 2020-03-18T19:23:48.126
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.126
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+
+# Created at 2020-03-18T19:23:48.126
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.126
+Unexpected IOException with stream: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+
+# Created at 2020-03-18T19:23:48.127
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.127
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+
+# Created at 2020-03-18T19:23:48.127
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.127
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+
+# Created at 2020-03-18T19:23:48.128
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.128
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+
+# Created at 2020-03-18T19:23:48.128
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.128
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+
+# Created at 2020-03-18T19:23:48.129
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.129
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+
+# Created at 2020-03-18T19:23:48.129
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.129
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+
+# Created at 2020-03-18T19:23:48.130
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.130
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+
+# Created at 2020-03-18T19:23:48.130
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.130
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+
+# Created at 2020-03-18T19:23:48.131
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.131
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+
+# Created at 2020-03-18T19:23:48.131
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.131
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+
+# Created at 2020-03-18T19:23:48.132
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.132
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+
+# Created at 2020-03-18T19:23:48.132
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.132
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2020-03-18T19:23:48.133
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.133
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2020-03-18T19:23:48.133
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.133
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2020-03-18T19:23:48.134
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.134
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2020-03-18T19:23:48.134
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.134
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-03-18T19:23:48.135
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.135
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-03-18T19:23:48.135
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.135
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-03-18T19:23:48.136
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.136
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-03-18T19:23:48.136
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.444
+Unexpected IOException with stream: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'word' at row 1
+
+# Created at 2020-03-18T19:23:48.444
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.445
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+
+# Created at 2020-03-18T19:23:48.445
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.445
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1393)
+
+# Created at 2020-03-18T19:23:48.445
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.446
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2353)
+
+# Created at 2020-03-18T19:23:48.446
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.446
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1303)
+
+# Created at 2020-03-18T19:23:48.446
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.447
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.MySqlConnection.sqlStatementExecute(MySqlConnection.java:50)
+
+# Created at 2020-03-18T19:23:48.447
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.447
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.wordToDataBase(DataToDataBase.java:70)
+
+# Created at 2020-03-18T19:23:48.447
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.448
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.<init>(DataToDataBase.java:21)
+
+# Created at 2020-03-18T19:23:48.448
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.448
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBaseTest.shouldAnswerWithTrue(DataToDataBaseTest.java:22)
+
+# Created at 2020-03-18T19:23:48.448
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.449
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-03-18T19:23:48.449
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.449
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-03-18T19:23:48.449
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.450
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-03-18T19:23:48.450
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.450
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+
+# Created at 2020-03-18T19:23:48.450
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.451
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+
+# Created at 2020-03-18T19:23:48.451
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.451
+Unexpected IOException with stream: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+
+# Created at 2020-03-18T19:23:48.451
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.452
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+
+# Created at 2020-03-18T19:23:48.452
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.452
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+
+# Created at 2020-03-18T19:23:48.453
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.453
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+
+# Created at 2020-03-18T19:23:48.453
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.453
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+
+# Created at 2020-03-18T19:23:48.454
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.454
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+
+# Created at 2020-03-18T19:23:48.454
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.454
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+
+# Created at 2020-03-18T19:23:48.455
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.455
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+
+# Created at 2020-03-18T19:23:48.455
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.455
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+
+# Created at 2020-03-18T19:23:48.455
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.456
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+
+# Created at 2020-03-18T19:23:48.456
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.456
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+
+# Created at 2020-03-18T19:23:48.456
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.457
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+
+# Created at 2020-03-18T19:23:48.457
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.457
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2020-03-18T19:23:48.457
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.458
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2020-03-18T19:23:48.458
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.458
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2020-03-18T19:23:48.458
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.459
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2020-03-18T19:23:48.459
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.459
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-03-18T19:23:48.459
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.460
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-03-18T19:23:48.460
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.460
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-03-18T19:23:48.460
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:48.461
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-03-18T19:23:48.461
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.004
+Unexpected IOException with stream: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'more' at row 1
+
+# Created at 2020-03-18T19:23:53.004
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.005
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+
+# Created at 2020-03-18T19:23:53.005
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.005
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1393)
+
+# Created at 2020-03-18T19:23:53.005
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.006
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2353)
+
+# Created at 2020-03-18T19:23:53.006
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.006
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1303)
+
+# Created at 2020-03-18T19:23:53.006
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.007
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.MySqlConnection.sqlStatementExecute(MySqlConnection.java:50)
+
+# Created at 2020-03-18T19:23:53.007
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.007
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.wordToDataBase(DataToDataBase.java:70)
+
+# Created at 2020-03-18T19:23:53.007
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.008
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.<init>(DataToDataBase.java:21)
+
+# Created at 2020-03-18T19:23:53.008
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.008
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBaseTest.shouldAnswerWithTrue(DataToDataBaseTest.java:22)
+
+# Created at 2020-03-18T19:23:53.008
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.009
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-03-18T19:23:53.009
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.009
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-03-18T19:23:53.010
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.010
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-03-18T19:23:53.010
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.010
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+
+# Created at 2020-03-18T19:23:53.011
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.011
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+
+# Created at 2020-03-18T19:23:53.011
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.011
+Unexpected IOException with stream: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+
+# Created at 2020-03-18T19:23:53.011
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.012
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+
+# Created at 2020-03-18T19:23:53.012
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.012
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+
+# Created at 2020-03-18T19:23:53.012
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.013
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+
+# Created at 2020-03-18T19:23:53.013
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.013
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+
+# Created at 2020-03-18T19:23:53.013
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.013
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+
+# Created at 2020-03-18T19:23:53.014
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.014
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+
+# Created at 2020-03-18T19:23:53.014
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.014
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+
+# Created at 2020-03-18T19:23:53.015
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.015
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+
+# Created at 2020-03-18T19:23:53.015
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.015
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+
+# Created at 2020-03-18T19:23:53.016
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.016
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+
+# Created at 2020-03-18T19:23:53.016
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.016
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+
+# Created at 2020-03-18T19:23:53.016
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.017
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2020-03-18T19:23:53.017
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.017
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2020-03-18T19:23:53.017
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.018
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2020-03-18T19:23:53.018
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.018
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2020-03-18T19:23:53.018
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.019
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-03-18T19:23:53.019
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.019
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-03-18T19:23:53.019
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.019
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-03-18T19:23:53.020
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:53.020
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-03-18T19:23:53.020
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.581
+Unexpected IOException with stream: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'more' at row 1
+
+# Created at 2020-03-18T19:23:54.581
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.582
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+
+# Created at 2020-03-18T19:23:54.582
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.582
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1393)
+
+# Created at 2020-03-18T19:23:54.582
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.583
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2353)
+
+# Created at 2020-03-18T19:23:54.583
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.583
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1303)
+
+# Created at 2020-03-18T19:23:54.583
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.584
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.MySqlConnection.sqlStatementExecute(MySqlConnection.java:50)
+
+# Created at 2020-03-18T19:23:54.584
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.584
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.wordToDataBase(DataToDataBase.java:70)
+
+# Created at 2020-03-18T19:23:54.585
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.585
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.<init>(DataToDataBase.java:21)
+
+# Created at 2020-03-18T19:23:54.585
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.585
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBaseTest.shouldAnswerWithTrue(DataToDataBaseTest.java:22)
+
+# Created at 2020-03-18T19:23:54.585
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.586
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-03-18T19:23:54.586
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.586
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-03-18T19:23:54.586
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.587
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-03-18T19:23:54.587
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.587
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+
+# Created at 2020-03-18T19:23:54.587
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.588
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+
+# Created at 2020-03-18T19:23:54.588
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.588
+Unexpected IOException with stream: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+
+# Created at 2020-03-18T19:23:54.588
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.589
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+
+# Created at 2020-03-18T19:23:54.589
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.589
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+
+# Created at 2020-03-18T19:23:54.589
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.590
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+
+# Created at 2020-03-18T19:23:54.590
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.590
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+
+# Created at 2020-03-18T19:23:54.590
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.591
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+
+# Created at 2020-03-18T19:23:54.591
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.591
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+
+# Created at 2020-03-18T19:23:54.591
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.592
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+
+# Created at 2020-03-18T19:23:54.592
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.592
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+
+# Created at 2020-03-18T19:23:54.592
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.593
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+
+# Created at 2020-03-18T19:23:54.593
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.593
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+
+# Created at 2020-03-18T19:23:54.593
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.593
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+
+# Created at 2020-03-18T19:23:54.594
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.594
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2020-03-18T19:23:54.594
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.594
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2020-03-18T19:23:54.595
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.595
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2020-03-18T19:23:54.595
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.595
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2020-03-18T19:23:54.595
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.596
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-03-18T19:23:54.596
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.596
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-03-18T19:23:54.596
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.597
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-03-18T19:23:54.597
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:54.597
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-03-18T19:23:54.597
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.725
+Unexpected IOException with stream: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'more' at row 1
+
+# Created at 2020-03-18T19:23:56.725
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.726
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+
+# Created at 2020-03-18T19:23:56.726
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.726
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1393)
+
+# Created at 2020-03-18T19:23:56.726
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.727
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2353)
+
+# Created at 2020-03-18T19:23:56.727
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.727
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1303)
+
+# Created at 2020-03-18T19:23:56.727
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.727
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.MySqlConnection.sqlStatementExecute(MySqlConnection.java:50)
+
+# Created at 2020-03-18T19:23:56.728
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.728
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.wordToDataBase(DataToDataBase.java:70)
+
+# Created at 2020-03-18T19:23:56.728
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.728
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.<init>(DataToDataBase.java:21)
+
+# Created at 2020-03-18T19:23:56.729
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.729
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBaseTest.shouldAnswerWithTrue(DataToDataBaseTest.java:22)
+
+# Created at 2020-03-18T19:23:56.729
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.729
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-03-18T19:23:56.730
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.730
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-03-18T19:23:56.730
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.730
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-03-18T19:23:56.730
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.731
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+
+# Created at 2020-03-18T19:23:56.731
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.731
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+
+# Created at 2020-03-18T19:23:56.732
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.732
+Unexpected IOException with stream: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+
+# Created at 2020-03-18T19:23:56.732
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.732
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+
+# Created at 2020-03-18T19:23:56.733
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.733
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+
+# Created at 2020-03-18T19:23:56.733
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.733
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+
+# Created at 2020-03-18T19:23:56.734
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.734
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+
+# Created at 2020-03-18T19:23:56.734
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.734
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+
+# Created at 2020-03-18T19:23:56.734
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.735
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+
+# Created at 2020-03-18T19:23:56.735
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.735
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+
+# Created at 2020-03-18T19:23:56.735
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.736
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+
+# Created at 2020-03-18T19:23:56.736
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.736
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+
+# Created at 2020-03-18T19:23:56.736
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.736
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+
+# Created at 2020-03-18T19:23:56.737
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.737
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+
+# Created at 2020-03-18T19:23:56.737
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.737
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2020-03-18T19:23:56.738
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.738
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2020-03-18T19:23:56.738
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.738
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2020-03-18T19:23:56.739
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.739
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2020-03-18T19:23:56.739
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.739
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-03-18T19:23:56.739
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.740
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-03-18T19:23:56.740
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.740
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-03-18T19:23:56.740
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:23:56.741
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-03-18T19:23:56.741
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.202
+Unexpected IOException with stream: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'more' at row 1
+
+# Created at 2020-03-18T19:24:00.202
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.202
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+
+# Created at 2020-03-18T19:24:00.203
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.203
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1393)
+
+# Created at 2020-03-18T19:24:00.203
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.203
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2353)
+
+# Created at 2020-03-18T19:24:00.203
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.204
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1303)
+
+# Created at 2020-03-18T19:24:00.204
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.204
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.MySqlConnection.sqlStatementExecute(MySqlConnection.java:50)
+
+# Created at 2020-03-18T19:24:00.204
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.205
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.wordToDataBase(DataToDataBase.java:70)
+
+# Created at 2020-03-18T19:24:00.205
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.205
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.<init>(DataToDataBase.java:21)
+
+# Created at 2020-03-18T19:24:00.205
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.206
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBaseTest.shouldAnswerWithTrue(DataToDataBaseTest.java:22)
+
+# Created at 2020-03-18T19:24:00.206
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.207
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-03-18T19:24:00.207
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.207
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-03-18T19:24:00.207
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.208
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-03-18T19:24:00.208
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.208
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+
+# Created at 2020-03-18T19:24:00.208
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.209
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+
+# Created at 2020-03-18T19:24:00.209
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.209
+Unexpected IOException with stream: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+
+# Created at 2020-03-18T19:24:00.210
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.210
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+
+# Created at 2020-03-18T19:24:00.210
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.210
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+
+# Created at 2020-03-18T19:24:00.211
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.211
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+
+# Created at 2020-03-18T19:24:00.211
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.211
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+
+# Created at 2020-03-18T19:24:00.212
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.212
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+
+# Created at 2020-03-18T19:24:00.212
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.212
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+
+# Created at 2020-03-18T19:24:00.213
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.213
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+
+# Created at 2020-03-18T19:24:00.213
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.213
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+
+# Created at 2020-03-18T19:24:00.214
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.214
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+
+# Created at 2020-03-18T19:24:00.214
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.214
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+
+# Created at 2020-03-18T19:24:00.214
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.215
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+
+# Created at 2020-03-18T19:24:00.215
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.215
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2020-03-18T19:24:00.215
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.216
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2020-03-18T19:24:00.216
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.216
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2020-03-18T19:24:00.216
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.216
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2020-03-18T19:24:00.217
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.217
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-03-18T19:24:00.217
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.217
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-03-18T19:24:00.218
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.218
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-03-18T19:24:00.218
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:00.218
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-03-18T19:24:00.219
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.990
+Unexpected IOException with stream: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'more' at row 1
+
+# Created at 2020-03-18T19:24:01.991
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.991
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+
+# Created at 2020-03-18T19:24:01.991
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.991
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1393)
+
+# Created at 2020-03-18T19:24:01.992
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.992
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2353)
+
+# Created at 2020-03-18T19:24:01.992
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.992
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1303)
+
+# Created at 2020-03-18T19:24:01.992
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.993
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.MySqlConnection.sqlStatementExecute(MySqlConnection.java:50)
+
+# Created at 2020-03-18T19:24:01.993
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.993
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.wordToDataBase(DataToDataBase.java:70)
+
+# Created at 2020-03-18T19:24:01.993
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.993
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.<init>(DataToDataBase.java:21)
+
+# Created at 2020-03-18T19:24:01.994
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.994
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBaseTest.shouldAnswerWithTrue(DataToDataBaseTest.java:22)
+
+# Created at 2020-03-18T19:24:01.994
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.994
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-03-18T19:24:01.995
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.995
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-03-18T19:24:01.995
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.995
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-03-18T19:24:01.995
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.996
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+
+# Created at 2020-03-18T19:24:01.996
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.996
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+
+# Created at 2020-03-18T19:24:01.997
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.997
+Unexpected IOException with stream: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+
+# Created at 2020-03-18T19:24:01.997
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.997
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+
+# Created at 2020-03-18T19:24:01.997
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.998
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+
+# Created at 2020-03-18T19:24:01.998
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.998
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+
+# Created at 2020-03-18T19:24:01.998
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.999
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+
+# Created at 2020-03-18T19:24:01.999
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.999
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+
+# Created at 2020-03-18T19:24:01.999
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:01.999
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+
+# Created at 2020-03-18T19:24:02.000
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:02.000
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+
+# Created at 2020-03-18T19:24:02.000
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:02.000
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+
+# Created at 2020-03-18T19:24:02.000
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:02.001
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+
+# Created at 2020-03-18T19:24:02.001
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:02.001
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+
+# Created at 2020-03-18T19:24:02.001
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:02.002
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+
+# Created at 2020-03-18T19:24:02.002
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:02.002
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2020-03-18T19:24:02.002
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:02.002
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2020-03-18T19:24:02.003
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:02.003
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2020-03-18T19:24:02.003
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:02.003
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2020-03-18T19:24:02.003
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:02.004
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-03-18T19:24:02.004
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:02.004
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-03-18T19:24:02.004
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:02.005
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-03-18T19:24:02.005
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:02.005
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-03-18T19:24:02.005
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.070
+Unexpected IOException with stream: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'more' at row 1
+
+# Created at 2020-03-18T19:24:05.070
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.071
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+
+# Created at 2020-03-18T19:24:05.071
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.071
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1393)
+
+# Created at 2020-03-18T19:24:05.071
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.072
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2353)
+
+# Created at 2020-03-18T19:24:05.072
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.072
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1303)
+
+# Created at 2020-03-18T19:24:05.073
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.073
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.MySqlConnection.sqlStatementExecute(MySqlConnection.java:50)
+
+# Created at 2020-03-18T19:24:05.073
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.073
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.wordToDataBase(DataToDataBase.java:70)
+
+# Created at 2020-03-18T19:24:05.074
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.074
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.<init>(DataToDataBase.java:21)
+
+# Created at 2020-03-18T19:24:05.074
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.074
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBaseTest.shouldAnswerWithTrue(DataToDataBaseTest.java:22)
+
+# Created at 2020-03-18T19:24:05.074
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.075
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-03-18T19:24:05.075
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.075
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-03-18T19:24:05.075
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.075
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-03-18T19:24:05.076
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.076
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+
+# Created at 2020-03-18T19:24:05.076
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.076
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+
+# Created at 2020-03-18T19:24:05.077
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.077
+Unexpected IOException with stream: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+
+# Created at 2020-03-18T19:24:05.077
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.077
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+
+# Created at 2020-03-18T19:24:05.077
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.078
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+
+# Created at 2020-03-18T19:24:05.078
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.078
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+
+# Created at 2020-03-18T19:24:05.078
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.079
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+
+# Created at 2020-03-18T19:24:05.079
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.079
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+
+# Created at 2020-03-18T19:24:05.079
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.079
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+
+# Created at 2020-03-18T19:24:05.080
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.080
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+
+# Created at 2020-03-18T19:24:05.080
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.080
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+
+# Created at 2020-03-18T19:24:05.081
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.081
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+
+# Created at 2020-03-18T19:24:05.081
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.081
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+
+# Created at 2020-03-18T19:24:05.081
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.082
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+
+# Created at 2020-03-18T19:24:05.082
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.082
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2020-03-18T19:24:05.082
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.082
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2020-03-18T19:24:05.083
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.083
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2020-03-18T19:24:05.083
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.083
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2020-03-18T19:24:05.084
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.084
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-03-18T19:24:05.084
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.084
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-03-18T19:24:05.084
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.085
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-03-18T19:24:05.085
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.085
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-03-18T19:24:05.085
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.996
+Unexpected IOException with stream: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'more' at row 1
+
+# Created at 2020-03-18T19:24:05.996
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.997
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+
+# Created at 2020-03-18T19:24:05.997
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.997
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1393)
+
+# Created at 2020-03-18T19:24:05.997
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.998
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2353)
+
+# Created at 2020-03-18T19:24:05.998
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.998
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1303)
+
+# Created at 2020-03-18T19:24:05.998
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.998
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.MySqlConnection.sqlStatementExecute(MySqlConnection.java:50)
+
+# Created at 2020-03-18T19:24:05.999
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.999
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.wordToDataBase(DataToDataBase.java:70)
+
+# Created at 2020-03-18T19:24:05.999
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:05.999
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.<init>(DataToDataBase.java:21)
+
+# Created at 2020-03-18T19:24:05.999
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.000
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBaseTest.shouldAnswerWithTrue(DataToDataBaseTest.java:22)
+
+# Created at 2020-03-18T19:24:06.000
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.000
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-03-18T19:24:06.000
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.000
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-03-18T19:24:06.001
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.001
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-03-18T19:24:06.001
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.001
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+
+# Created at 2020-03-18T19:24:06.002
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.002
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+
+# Created at 2020-03-18T19:24:06.009
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.009
+Unexpected IOException with stream: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+
+# Created at 2020-03-18T19:24:06.010
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.010
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+
+# Created at 2020-03-18T19:24:06.010
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.010
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+
+# Created at 2020-03-18T19:24:06.010
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.011
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+
+# Created at 2020-03-18T19:24:06.011
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.011
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+
+# Created at 2020-03-18T19:24:06.011
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.012
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+
+# Created at 2020-03-18T19:24:06.012
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.012
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+
+# Created at 2020-03-18T19:24:06.012
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.012
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+
+# Created at 2020-03-18T19:24:06.013
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.013
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+
+# Created at 2020-03-18T19:24:06.013
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.013
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+
+# Created at 2020-03-18T19:24:06.013
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.014
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+
+# Created at 2020-03-18T19:24:06.014
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.014
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+
+# Created at 2020-03-18T19:24:06.014
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.015
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2020-03-18T19:24:06.015
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.015
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2020-03-18T19:24:06.015
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.016
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2020-03-18T19:24:06.016
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.016
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2020-03-18T19:24:06.016
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.017
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-03-18T19:24:06.017
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.017
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-03-18T19:24:06.017
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.017
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-03-18T19:24:06.018
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:06.018
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-03-18T19:24:06.018
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.847
+Unexpected IOException with stream: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'more' at row 1
+
+# Created at 2020-03-18T19:24:08.848
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.848
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+
+# Created at 2020-03-18T19:24:08.848
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.848
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1393)
+
+# Created at 2020-03-18T19:24:08.849
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.849
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2353)
+
+# Created at 2020-03-18T19:24:08.849
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.850
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1303)
+
+# Created at 2020-03-18T19:24:08.850
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.850
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.MySqlConnection.sqlStatementExecute(MySqlConnection.java:50)
+
+# Created at 2020-03-18T19:24:08.850
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.851
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.wordToDataBase(DataToDataBase.java:70)
+
+# Created at 2020-03-18T19:24:08.851
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.851
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.<init>(DataToDataBase.java:21)
+
+# Created at 2020-03-18T19:24:08.851
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.852
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBaseTest.shouldAnswerWithTrue(DataToDataBaseTest.java:22)
+
+# Created at 2020-03-18T19:24:08.852
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.852
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-03-18T19:24:08.852
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.853
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-03-18T19:24:08.853
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.853
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-03-18T19:24:08.854
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.854
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+
+# Created at 2020-03-18T19:24:08.854
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.854
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+
+# Created at 2020-03-18T19:24:08.855
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.855
+Unexpected IOException with stream: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+
+# Created at 2020-03-18T19:24:08.855
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.855
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+
+# Created at 2020-03-18T19:24:08.856
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.856
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+
+# Created at 2020-03-18T19:24:08.856
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.857
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+
+# Created at 2020-03-18T19:24:08.857
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.857
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+
+# Created at 2020-03-18T19:24:08.857
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.858
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+
+# Created at 2020-03-18T19:24:08.858
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.858
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+
+# Created at 2020-03-18T19:24:08.858
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.859
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+
+# Created at 2020-03-18T19:24:08.859
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.859
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+
+# Created at 2020-03-18T19:24:08.859
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.859
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+
+# Created at 2020-03-18T19:24:08.860
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.860
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+
+# Created at 2020-03-18T19:24:08.860
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.860
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+
+# Created at 2020-03-18T19:24:08.861
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.861
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2020-03-18T19:24:08.861
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.861
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2020-03-18T19:24:08.861
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.862
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2020-03-18T19:24:08.862
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.862
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2020-03-18T19:24:08.862
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.863
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-03-18T19:24:08.863
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.863
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-03-18T19:24:08.863
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.863
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-03-18T19:24:08.864
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:08.864
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-03-18T19:24:08.864
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.642
+Unexpected IOException with stream: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'more' at row 1
+
+# Created at 2020-03-18T19:24:09.642
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.643
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:104)
+
+# Created at 2020-03-18T19:24:09.643
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.643
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1393)
+
+# Created at 2020-03-18T19:24:09.643
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.644
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2353)
+
+# Created at 2020-03-18T19:24:09.644
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.644
+Unexpected IOException with stream: 	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1303)
+
+# Created at 2020-03-18T19:24:09.645
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.645
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.MySqlConnection.sqlStatementExecute(MySqlConnection.java:50)
+
+# Created at 2020-03-18T19:24:09.645
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.645
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.wordToDataBase(DataToDataBase.java:70)
+
+# Created at 2020-03-18T19:24:09.646
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.646
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBase.<init>(DataToDataBase.java:21)
+
+# Created at 2020-03-18T19:24:09.646
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.646
+Unexpected IOException with stream: 	at top.bayesian.chi.sql.DataToDataBaseTest.shouldAnswerWithTrue(DataToDataBaseTest.java:22)
+
+# Created at 2020-03-18T19:24:09.647
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.647
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2020-03-18T19:24:09.647
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.647
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2020-03-18T19:24:09.648
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.648
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2020-03-18T19:24:09.648
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.648
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+
+# Created at 2020-03-18T19:24:09.649
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.649
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+
+# Created at 2020-03-18T19:24:09.649
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.650
+Unexpected IOException with stream: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+
+# Created at 2020-03-18T19:24:09.650
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.650
+Unexpected IOException with stream: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+
+# Created at 2020-03-18T19:24:09.650
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.651
+Unexpected IOException with stream: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+
+# Created at 2020-03-18T19:24:09.651
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.651
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+
+# Created at 2020-03-18T19:24:09.651
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.652
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+
+# Created at 2020-03-18T19:24:09.652
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.652
+Unexpected IOException with stream: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+
+# Created at 2020-03-18T19:24:09.652
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.653
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+
+# Created at 2020-03-18T19:24:09.653
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.653
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+
+# Created at 2020-03-18T19:24:09.653
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.653
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+
+# Created at 2020-03-18T19:24:09.654
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.654
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+
+# Created at 2020-03-18T19:24:09.654
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.654
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+
+# Created at 2020-03-18T19:24:09.655
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.655
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+
+# Created at 2020-03-18T19:24:09.655
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.655
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2020-03-18T19:24:09.655
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.656
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2020-03-18T19:24:09.656
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.656
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2020-03-18T19:24:09.656
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.657
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2020-03-18T19:24:09.657
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.657
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2020-03-18T19:24:09.657
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.657
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2020-03-18T19:24:09.658
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.658
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2020-03-18T19:24:09.658
+Unexpected IOException with stream: 
+
+
+# Created at 2020-03-18T19:24:09.658
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2020-03-18T19:24:09.659
+Unexpected IOException with stream: 
+
+
