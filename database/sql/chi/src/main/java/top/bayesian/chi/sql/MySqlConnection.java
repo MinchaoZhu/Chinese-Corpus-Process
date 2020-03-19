@@ -73,6 +73,4 @@ public class MySqlConnection
     public void close(){
         closeConnection();
     }
-
-
 }

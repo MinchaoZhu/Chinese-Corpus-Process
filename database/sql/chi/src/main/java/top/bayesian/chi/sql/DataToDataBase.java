@@ -17,9 +17,10 @@ public class DataToDataBase
     public DataToDataBase(String url, String dbName, String user, String password){
         conn = new MySqlConnection(url, dbName, user, password);
         conn.sqlScriptFileExecute("sql/init.sql");
-        //ciToDataBase("src/main/resources/data/ci.json");
-        //wordToDataBase("src/main/resources/data/word.json");
-        idiomToDataBase("src/main/resources/data/idiom.json");
+        ciToDataBase("D:/Cloud/Dev/Chinese/database/data/ci.json");
+        wordToDataBase("D:/Cloud/Dev/Chinese/database/data/word.json");
+        idiomToDataBase("D:/Cloud/Dev/Chinese/database/data/idiom.json");
+        xiehouyuToDataBase("D:/Cloud/Dev/Chinese/database/data/xiehouyu.json");
         conn.close();
     }
 
@@ -95,8 +96,10 @@ public class DataToDataBase
                 String pinyin = jo.get("pinyin").toString();
                 String firstPinyin = getFirstPinyin(pinyin);
                 String lastPinyin = getLastPinyin(pinyin);
-                
-                //conn.sqlStatementExecute(sql);
+                sql = "INSERT INTO `idiom` (`idiom_id`, `idiom`, `derivation`, `explanation`, `example`, `pinyin`, `first_pinyin`, `last_pinyin`, `abbreviation`) VALUES (NULL, \""+
+                jo.get("idiom")+"\",\""+jo.get("derivation")+"\",\""+jo.get("explanation")+"\",\""+jo.get("example")+"\",\""+jo.get("pinyin")+"\",\""+jo.get(firstPinyin)+"\",\""+jo.get(lastPinyin)+"\",\""+jo.get("abbreviation") +"\")";
+
+                conn.sqlStatementExecute(sql);
                 //System.out.println(sql);
             }
         } catch (FileNotFoundException e) {
@@ -136,7 +139,30 @@ public class DataToDataBase
     }
 
     private void xiehouyuToDataBase(String path){
+        System.out.println(path);
+        JSONParser jsonParser = new JSONParser();
+        try (FileReader reader = new FileReader(path, StandardCharsets.UTF_8))
+        {
 
+            String sql;
+            //Read JSON file
+            Object obj = jsonParser.parse(reader);
+            JSONArray ciList = (JSONArray) obj;
+
+            for(int i = 0; i<ciList.size(); ++i){
+                JSONObject jo = (JSONObject)ciList.get(i);
+                sql = "INSERT INTO `xiehouyu` (`xiehouyu_id`, `riddle`, `answer`) VALUES (NULL, \"" + jo.get("riddle")  +"\",\""+ jo.get("answer") + "\")";
+                
+                conn.sqlStatementExecute(sql);
+                //System.out.println(sql);
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }catch (org.json.simple.parser.ParseException e) {
+            e.printStackTrace();
+        }
     }
 
     public void close(){
