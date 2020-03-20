@@ -1,9 +1,10 @@
 package top.bayesian.chi.sql;
 
+import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
+import java.io.InputStreamReader;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -14,13 +15,13 @@ public class DataToDataBase
 {
     private MySqlConnection conn;
     
-    public DataToDataBase(String url, String dbName, String user, String password){
+    public DataToDataBase(String url, String dbName, String user, String password, String path){
         conn = new MySqlConnection(url, dbName, user, password);
-        conn.sqlScriptFileExecute("sql/init.sql");
-        ciToDataBase("D:/Cloud/Dev/Chinese/database/data/ci.json");
-        wordToDataBase("D:/Cloud/Dev/Chinese/database/data/word.json");
-        idiomToDataBase("D:/Cloud/Dev/Chinese/database/data/idiom.json");
-        xiehouyuToDataBase("D:/Cloud/Dev/Chinese/database/data/xiehouyu.json");
+        // conn.sqlScriptFileExecute("sql/init.sql");
+        xiehouyuToDataBase(path+"/xiehouyu.json");
+        // idiomToDataBase(path+"/idiom.json");
+        // wordToDataBase(path+"/word.json");
+        // ciToDataBase(path+"/ci.json");
         conn.close();
     }
 
@@ -29,7 +30,9 @@ public class DataToDataBase
     private void ciToDataBase(String path){
         System.out.println(path);
         JSONParser jsonParser = new JSONParser();
-        try (FileReader reader = new FileReader(path, StandardCharsets.UTF_8))
+        try (BufferedReader reader = new BufferedReader(
+            new InputStreamReader(
+                       new FileInputStream(path), "UTF8")))
         {
 
             String sql;
@@ -56,7 +59,9 @@ public class DataToDataBase
     private void wordToDataBase(String path){
         System.out.println(path);
         JSONParser jsonParser = new JSONParser();
-        try (FileReader reader = new FileReader(path, StandardCharsets.UTF_8))
+        try (BufferedReader reader = new BufferedReader(
+            new InputStreamReader(
+                       new FileInputStream(path), "UTF8")))
         {
 
             String sql;
@@ -83,7 +88,9 @@ public class DataToDataBase
     private void idiomToDataBase(String path){
         System.out.println(path);
         JSONParser jsonParser = new JSONParser();
-        try (FileReader reader = new FileReader(path, StandardCharsets.UTF_8))
+        try (BufferedReader reader = new BufferedReader(
+            new InputStreamReader(
+                       new FileInputStream(path), "UTF8")))
         {
 
             String sql;
@@ -96,8 +103,9 @@ public class DataToDataBase
                 String pinyin = jo.get("pinyin").toString();
                 String firstPinyin = getFirstPinyin(pinyin);
                 String lastPinyin = getLastPinyin(pinyin);
+                //System.out.println(firstPinyin);
                 sql = "INSERT INTO `idiom` (`idiom_id`, `idiom`, `derivation`, `explanation`, `example`, `pinyin`, `first_pinyin`, `last_pinyin`, `abbreviation`) VALUES (NULL, \""+
-                jo.get("idiom")+"\",\""+jo.get("derivation")+"\",\""+jo.get("explanation")+"\",\""+jo.get("example")+"\",\""+jo.get("pinyin")+"\",\""+jo.get(firstPinyin)+"\",\""+jo.get(lastPinyin)+"\",\""+jo.get("abbreviation") +"\")";
+                jo.get("word")+"\",\""+jo.get("derivation")+"\",\""+jo.get("explanation")+"\",\""+jo.get("example")+"\",\""+jo.get("pinyin")+"\",\""+firstPinyin+"\",\""+lastPinyin+"\",\""+jo.get("abbreviation") +"\")";
 
                 conn.sqlStatementExecute(sql);
                 //System.out.println(sql);
@@ -113,17 +121,15 @@ public class DataToDataBase
 
     private String getFirstPinyin(String pinyin){
         String result;
-        int firstSpaceIndex = 0;
-        while(pinyin.charAt(firstSpaceIndex++)!=' ');
-        result = pinyin.substring(0,firstSpaceIndex-1);
+        String[] splited = pinyin.split("\\s+");
+        result = splited[0];
         return removeTone(result);
     }
 
     private String getLastPinyin(String pinyin){
         String result;
-        int lastSpaceIndex = pinyin.length()-1;
-        while(pinyin.charAt(lastSpaceIndex--)!=' ');
-        result = pinyin.substring(lastSpaceIndex+2, pinyin.length());
+        String[] splited = pinyin.split("\\s+");
+        result = splited[splited.length-1];
         return removeTone(result);
     }
 
@@ -141,7 +147,9 @@ public class DataToDataBase
     private void xiehouyuToDataBase(String path){
         System.out.println(path);
         JSONParser jsonParser = new JSONParser();
-        try (FileReader reader = new FileReader(path, StandardCharsets.UTF_8))
+        try (BufferedReader reader = new BufferedReader(
+            new InputStreamReader(
+                       new FileInputStream(path), "UTF8"));)
         {
 
             String sql;
@@ -168,5 +176,4 @@ public class DataToDataBase
     public void close(){
         conn.close();
     }
-
 }
