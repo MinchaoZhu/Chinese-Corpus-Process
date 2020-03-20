@@ -14,7 +14,11 @@ public interface Dictionary{
 	@WebMethod 
 	String getRandomIdiom();
 	@WebMethod 
-	String getIdiomByFirstPinyin(String firstPinYin);
+	String getIdiomsByFirstpinyin(String firstPinyin);
 	@WebMethod 
-	String getIdiomByLastPinyin(String lastPinYin);
+	String getIdiomsByLastpinyin(String lastPinyin);
+	@WebMethod
+	String getRandomIdiomByFirstPinyin(String firstPinyin);
+	@WebMethod
+	String getRandomIdiomByLastPinyin(String lastPinyin);
 }

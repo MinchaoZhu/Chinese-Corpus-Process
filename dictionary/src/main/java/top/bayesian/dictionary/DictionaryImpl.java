@@ -40,7 +40,7 @@ public class DictionaryImpl implements Dictionary {
 	}
 	
 	@Override
-	public String getIdiomByFirstPinyin(String firstPinyin) {
+	public String getIdiomsByFirstpinyin(String firstPinyin) {
 		MySqlConnection conn = new MySqlConnection(url, dbName, user, password);
 		ResultSet resultSet;
 		StringBuilder sb = new StringBuilder();
@@ -59,7 +59,7 @@ public class DictionaryImpl implements Dictionary {
 	}
 	
 	@Override
-	public String getIdiomByLastPinyin(String lastPinyin) {
+	public String getIdiomsByLastpinyin(String lastPinyin) {
 		MySqlConnection conn = new MySqlConnection(url, dbName, user, password);
 		ResultSet resultSet;
 		StringBuilder sb = new StringBuilder();
