@@ -127,6 +127,29 @@ public class DictionaryImpl implements Dictionary {
 		return result;
 	}
 
+	@Override
+	public String findIdiom(String idiom){
+		MySqlConnection conn = new MySqlConnection(url, dbName, user, password);
+		ResultSet resultSet;
+		String sql = "SELECT * FROM `idiom` WHERE idiom ='" + idiom +"'";
+		StringBuilder result = new StringBuilder();
+		try{
+			resultSet = conn.sqlStatementQuery(sql);
+			if(resultSet!=null){
+				resultSet.next();
+				result.append("{");
+				result.append("\"idiom\":\"" ).append(resultSet.getString("idiom")).append("\",");
+				result.append("\"derivation\":\"" ).append(resultSet.getString("derivation")).append("\",");
+				result.append("\"explanation\":\"" ).append(resultSet.getString("explanation")).append("\",");
+				result.append("\"example\":\"" ).append(resultSet.getString("example")).append("\",");
+				result.append("\"pinyin\":\"" ).append(resultSet.getString("pinyin")).append("\",");
+				result.append("\"abbreviation\":\"" ).append(resultSet.getString("abbreviation")).append("\"");
+				result.append("}");
+			}
+		}catch(SQLException e){e.printStackTrace();}
+
+		return result.toString();
+	}
 
 	private String removeTone(String pinyin){
         String result = pinyin;
