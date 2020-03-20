@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: top.bayesian.chi.sql.DataToDataBaseTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.37 s - in top.bayesian.chi.sql.DataToDataBaseTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5,871.789 s - in top.bayesian.chi.sql.DataToDataBaseTest
