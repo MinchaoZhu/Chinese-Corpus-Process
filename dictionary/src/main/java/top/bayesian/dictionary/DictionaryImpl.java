@@ -77,6 +77,57 @@ public class DictionaryImpl implements Dictionary {
 		return sb.toString();
 	}
 
+	@Override
+	public String getRandomIdiomByFirstPinyin(String firstPinyin){
+		MySqlConnection conn = new MySqlConnection(url, dbName, user, password);
+		ResultSet resultSet;
+		String sql;
+		String result = new String();
+		int size, randIndex=0;
+		try{
+			firstPinyin = removeTone(firstPinyin);
+			sql = "SELECT * FROM idiom WHERE first_pinyin = '" + firstPinyin +"'";
+			resultSet = conn.sqlStatementQuery(sql);
+			resultSet.last();
+			size = resultSet.getRow();
+			if(size>0){
+				randIndex = (int)(size*Math.random());
+				resultSet.beforeFirst();
+				for(int i = 0; i<=randIndex;++i){
+					resultSet.next();
+				}
+				result += resultSet.getString("idiom");
+			}
+		}catch(SQLException e){e.printStackTrace();}
+		return result;
+	}
+
+	@Override
+	public String getRandomIdiomByLastPinyin(String lastPinyin){
+		MySqlConnection conn = new MySqlConnection(url, dbName, user, password);
+		ResultSet resultSet;
+		String sql;
+		String result = new String();
+		int size, randIndex=0;
+		try{
+			lastPinyin = removeTone(lastPinyin);
+			sql = "SELECT * FROM idiom WHERE last_pinyin = '" + lastPinyin +"'";
+			resultSet = conn.sqlStatementQuery(sql);
+			resultSet.last();
+			size = resultSet.getRow();
+			if(size>0){
+				randIndex = (int)(size*Math.random());
+				resultSet.beforeFirst();
+				for(int i = 0; i<=randIndex;++i){
+					resultSet.next();
+				}
+				result = resultSet.getString("idiom");
+			}
+		}catch(SQLException e){e.printStackTrace();}
+		return result;
+	}
+
+
 	private String removeTone(String pinyin){
         String result = pinyin;
         result = result.replace('ā', 'a');result = result.replace('á', 'a');result = result.replace('ǎ', 'a');result = result.replace('à', 'a');
