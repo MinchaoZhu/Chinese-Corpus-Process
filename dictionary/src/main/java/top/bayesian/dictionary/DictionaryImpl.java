@@ -135,8 +135,9 @@ public class DictionaryImpl implements Dictionary {
 		StringBuilder result = new StringBuilder();
 		try{
 			resultSet = conn.sqlStatementQuery(sql);
-			if(resultSet!=null){
-				resultSet.next();
+			resultSet.last();
+			if(resultSet.getRow()!=0){
+				resultSet.first();
 				result.append("{");
 				result.append("\"idiom\":\"" ).append(resultSet.getString("idiom")).append("\",");
 				result.append("\"derivation\":\"" ).append(resultSet.getString("derivation")).append("\",");
