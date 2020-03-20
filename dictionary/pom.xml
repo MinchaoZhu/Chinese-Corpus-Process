@@ -4,12 +4,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>top.bayesian</groupId>
-  <artifactId>dictionary</artifactId>
+  <groupId>top.bayesian.dictionary</groupId>
+  <artifactId>idiom</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>dictionary Maven Webapp</name>
+  <name>idiom Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -44,7 +44,7 @@
   </dependencies>
 
   <build>
-    <finalName>dictionary</finalName>
+    <finalName>idiom</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>

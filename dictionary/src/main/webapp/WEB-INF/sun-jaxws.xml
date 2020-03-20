@@ -4,6 +4,6 @@
   version="2.0">
   <endpoint
       name="HelloWorld"
-      implementation="top.bayesian.dictionary.DictionaryImpl"
-      url-pattern="/dictionary"/>
+      implementation="top.bayesian.dictionary.idiom.IdiomImpl"
+      url-pattern="/idiom"/>
 </endpoints>

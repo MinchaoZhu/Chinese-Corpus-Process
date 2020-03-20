@@ -1,4 +1,4 @@
-package top.bayesian.dictionary;
+package top.bayesian.dictionary.idiom;
 
 import java.io.IOException;
 import java.sql.ResultSet;
@@ -8,8 +8,8 @@ import javax.jws.WebService;
 import top.bayesian.sql.MySqlConnection;
 //Service Implementation Bean
 
-@WebService(endpointInterface = "top.bayesian.dictionary.Dictionary")
-public class DictionaryImpl implements Dictionary {
+@WebService(endpointInterface = "top.bayesian.dictionary.idiom.Idiom")
+public class IdiomImpl implements Idiom {
 	String url = "localhost:3306";
 	String dbName = "chinese_dictionary";
 	String user = "dictionary";
@@ -37,7 +37,6 @@ public class DictionaryImpl implements Dictionary {
 			result = "Fail ";
 			e.printStackTrace();
 		}
-		conn.close();
 		return result;
 	}
 

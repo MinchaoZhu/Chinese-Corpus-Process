@@ -3,7 +3,7 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Chinese Dictionary Service</display-name>
+  <display-name>Idiom: Chinese Dictionary Service</display-name>
 
   <listener>
       <listener-class>
@@ -11,15 +11,15 @@
       </listener-class>
   </listener>
   <servlet>
-      <servlet-name>dictionary</servlet-name>
+      <servlet-name>idiom</servlet-name>
       <servlet-class>
         com.sun.xml.ws.transport.http.servlet.WSServlet
       </servlet-class>
       <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
-      <servlet-name>dictionary</servlet-name>
-      <url-pattern>/dictionary</url-pattern>
+      <servlet-name>idiom</servlet-name>
+      <url-pattern>/idiom</url-pattern>
   </servlet-mapping>
   <session-config>
       <session-timeout>120</session-timeout>

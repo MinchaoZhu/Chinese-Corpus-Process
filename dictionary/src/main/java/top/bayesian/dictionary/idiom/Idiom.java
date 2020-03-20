@@ -1,4 +1,4 @@
-package top.bayesian.dictionary;
+package top.bayesian.dictionary.idiom;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;
@@ -8,7 +8,7 @@ import javax.jws.soap.SOAPBinding.Style;
 //Service Endpoint Interface
 @WebService
 @SOAPBinding(style = Style.RPC)
-public interface Dictionary {
+public interface Idiom {
 
 	@WebMethod
 	String getRandomIdiom();
