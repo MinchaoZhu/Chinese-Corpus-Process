@@ -24,14 +24,14 @@ create table if not exists ci(
 
 create table if not exists idiom(
     idiom_id int not null auto_increment,
-    idiom varchar(32) not null comment '成语',
+    idiom varchar(512) not null comment '成语',
     derivation varchar(1000) comment '出处',
     explanation varchar(1000) comment '解释',
-    example varchar(128) comment '例子',
-    pinyin varchar(128) not null comment '拼音',
+    example varchar(1024) comment '例子',
+    pinyin varchar(512) not null comment '拼音',
     first_pinyin varchar(10) not null comment '首字拼音',
     last_pinyin varchar(10) not null comment '尾字拼音',
-    abbreviation varchar(32),comment '缩写',
+    abbreviation varchar(32) comment '缩写',
     index(idiom),
     primary key(idiom_id),
     index(first_pinyin),

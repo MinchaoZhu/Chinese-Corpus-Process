@@ -1,9 +1,10 @@
 package top.bayesian.chi.sql;
 
+import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
+import java.io.InputStreamReader;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -16,11 +17,11 @@ public class DataToDataBase
     
     public DataToDataBase(String url, String dbName, String user, String password, String path){
         conn = new MySqlConnection(url, dbName, user, password);
-        conn.sqlScriptFileExecute("sql/init.sql");
+        // conn.sqlScriptFileExecute("sql/init.sql");
         xiehouyuToDataBase(path+"/xiehouyu.json");
-        idiomToDataBase(path+"/idiom.json");
-        wordToDataBase(path+"/word.json");
-        ciToDataBase(path+"/ci.json");
+        // idiomToDataBase(path+"/idiom.json");
+        // wordToDataBase(path+"/word.json");
+        // ciToDataBase(path+"/ci.json");
         conn.close();
     }
 
@@ -29,7 +30,9 @@ public class DataToDataBase
     private void ciToDataBase(String path){
         System.out.println(path);
         JSONParser jsonParser = new JSONParser();
-        try (FileReader reader = new FileReader(path, StandardCharsets.UTF_8))
+        try (BufferedReader reader = new BufferedReader(
+            new InputStreamReader(
+                       new FileInputStream(path), "UTF8")))
         {
 
             String sql;
@@ -56,7 +59,9 @@ public class DataToDataBase
     private void wordToDataBase(String path){
         System.out.println(path);
         JSONParser jsonParser = new JSONParser();
-        try (FileReader reader = new FileReader(path, StandardCharsets.UTF_8))
+        try (BufferedReader reader = new BufferedReader(
+            new InputStreamReader(
+                       new FileInputStream(path), "UTF8")))
         {
 
             String sql;
@@ -83,7 +88,9 @@ public class DataToDataBase
     private void idiomToDataBase(String path){
         System.out.println(path);
         JSONParser jsonParser = new JSONParser();
-        try (FileReader reader = new FileReader(path, StandardCharsets.UTF_8))
+        try (BufferedReader reader = new BufferedReader(
+            new InputStreamReader(
+                       new FileInputStream(path), "UTF8")))
         {
 
             String sql;
@@ -140,7 +147,9 @@ public class DataToDataBase
     private void xiehouyuToDataBase(String path){
         System.out.println(path);
         JSONParser jsonParser = new JSONParser();
-        try (FileReader reader = new FileReader(path, StandardCharsets.UTF_8))
+        try (BufferedReader reader = new BufferedReader(
+            new InputStreamReader(
+                       new FileInputStream(path), "UTF8"));)
         {
 
             String sql;
