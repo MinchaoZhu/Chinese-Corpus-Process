@@ -148,8 +148,49 @@ public class DictionaryImpl implements Dictionary {
 				result.append("}");
 			}
 		}catch(SQLException e){e.printStackTrace();}
-
 		return result.toString();
+	}
+
+	@Override
+	public String findJielongIdioms(String idiom) {
+		String result = new String();
+		if (findIdiom(idiom).equals(""));
+		else {
+			MySqlConnection conn = new MySqlConnection(url, dbName, user, password);
+			ResultSet resultSet;
+			String sql = "SELECT * FROM `idiom` WHERE idiom ='" + idiom + "'";
+			try {
+				resultSet = conn.sqlStatementQuery(sql);
+				resultSet.next();
+				String lastPinyin = resultSet.getString("last_pinyin");
+				result = getIdiomsByFirstpinyin(lastPinyin);
+			} catch (SQLException e) {
+				e.printStackTrace();
+				return result;
+			}
+		}
+		return result;
+	}
+
+	@Override
+	public String findJielongIdiom(String idiom){
+		String result = new String();
+		if (findIdiom(idiom).equals(""));
+		else {
+			MySqlConnection conn = new MySqlConnection(url, dbName, user, password);
+			ResultSet resultSet;
+			String sql = "SELECT * FROM `idiom` WHERE idiom ='" + idiom + "'";
+			try {
+				resultSet = conn.sqlStatementQuery(sql);
+				resultSet.next();
+				String lastPinyin = resultSet.getString("last_pinyin");
+				result = getRandomIdiomByFirstPinyin(lastPinyin);
+			} catch (SQLException e) {
+				e.printStackTrace();
+				return result;
+			}
+		}
+		return result;		
 	}
 
 	private String removeTone(String pinyin){

@@ -23,4 +23,9 @@ public interface Dictionary{
 	String getRandomIdiomByLastPinyin(String lastPinyin);
 	@WebMethod
 	String findIdiom(String idiom);
+	@WebMethod
+	String findJielongIdioms(String idiom);
+	@WebMethod
+	String findJielongIdiom(String idiom);
+
 }
