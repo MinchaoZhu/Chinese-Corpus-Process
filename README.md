@@ -1,6 +1,9 @@
 # 中文语料库
 建立SOAP协议的中文预料Web Service.
 
+作者的Web Service发布页面: 
+[service.bayesian.top](https://service.bayesian.top)
+
 ## 语料库
 中华新华字典数据库。收录包括 14032 条歇后语，16142 个汉字，264434 个词语，31648 个成语。
 
@@ -8,7 +11,7 @@
 ### 0. 数据录入数据库
 branch sql: 
 找一个带main入口的java程序载入DataToDatabase 类
-### 1. 成语
+### 1. 成语 Web Service
 Branch idiom:
 ```
 mvn package
