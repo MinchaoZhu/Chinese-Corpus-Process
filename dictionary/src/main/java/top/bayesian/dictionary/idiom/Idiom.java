@@ -34,4 +34,13 @@ public interface Idiom {
 	@WebMethod
 	String findJielongIdiom(String idiom);
 
+	@WebMethod
+	String getFirstPinyin(String idiom);
+
+	@WebMethod
+	String getLastPinyin(String idiom);
+
+	@WebMethod
+	String checkJielong(String idiom1, String idiom2);
+
 }

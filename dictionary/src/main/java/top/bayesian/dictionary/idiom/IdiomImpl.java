@@ -199,6 +199,59 @@ public class IdiomImpl implements Idiom {
 		return result;
 	}
 
+	@Override
+	public String getFirstPinyin(String idiom){
+		String result = new String();
+		if (idiom==""||findIdiom(idiom).equals(""))
+			;
+		else {
+			ResultSet resultSet;
+			String sql = "SELECT `first_pinyin` FROM `idiom` WHERE idiom ='" + idiom + "'";
+			try {
+				resultSet = conn.sqlStatementQuery(sql);
+				resultSet.next();
+				result = resultSet.getString("first_pinyin");
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		return result;
+	}
+
+	@Override
+	public String getLastPinyin(String idiom){
+		String result = "";
+		if (idiom==""||findIdiom(idiom).equals(""))
+			;
+		else {
+			ResultSet resultSet;
+			String sql = "SELECT `last_pinyin` FROM `idiom` WHERE idiom ='" + idiom + "'";
+			try {
+				resultSet = conn.sqlStatementQuery(sql);
+				resultSet.next();
+				result = resultSet.getString("last_pinyin");
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		return result;
+	}
+
+	@Override
+	public String checkJielong(String idiom1, String idiom2){
+		String result = "";
+		String lastOfIdiom1 = getLastPinyin(idiom1);
+		String firstOfIdiom2 = getFirstPinyin(idiom2);
+		if(lastOfIdiom1.equals("")||firstOfIdiom2.equals("")){
+			result = "";
+		}
+		else{
+			result = lastOfIdiom1.equals(firstOfIdiom2)?"1":"";
+		}
+		return result;
+	}
+
+
 	private String removeTone(String pinyin) {
 		String result = pinyin;
 		result = result.replace('ā', 'a');
