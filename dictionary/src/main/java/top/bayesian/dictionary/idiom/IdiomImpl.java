@@ -221,8 +221,7 @@ public class IdiomImpl implements Idiom {
 	@Override
 	public String getLastPinyin(String idiom){
 		String result = "";
-		if (idiom==""||findIdiom(idiom).equals(""))
-			;
+		if (idiom==""||findIdiom(idiom).equals(""));
 		else {
 			ResultSet resultSet;
 			String sql = "SELECT `last_pinyin` FROM `idiom` WHERE idiom ='" + idiom + "'";
@@ -242,7 +241,7 @@ public class IdiomImpl implements Idiom {
 		String result = "";
 		String lastOfIdiom1 = getLastPinyin(idiom1);
 		String firstOfIdiom2 = getFirstPinyin(idiom2);
-		if(lastOfIdiom1.equals("")||firstOfIdiom2.equals("")){
+		if(lastOfIdiom1.equals(new String(""))||firstOfIdiom2.equals(new String(""))){
 			result = "";
 		}
 		else{
