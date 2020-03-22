@@ -80,6 +80,27 @@ public String findJielongIdioms(String arg0);
     */
 public String findJielongIdiom(String arg0);
 
+/**
+ * 获得输入成语的首字拼音
+ * @param idiom String: 成语字符串
+ * @return String: 首字拼音, 如成语不存在则返回空字符串
+ */
+String getFirstPinyin(String idiom);
+
+/**
+ * 获得输入成语的尾字拼音
+ * @param idiom String: 成语字符串
+ * @return String: 尾字拼音, 如成语不存在则返回空字符串
+ */
+String getLastPinyin(String idiom);
+
+/**
+ * 判断idiom2在idiom1后面, 是否形成接龙
+ * @param idiom1 String: 第一个成语
+ * @param idiom2 String: 第二个成语
+ * @return String: 形成接龙返回"1", 否则返回空字符串
+ */
+String checkJielong(String idiom1, String idiom2);
 ```
 
 ## TODO
