@@ -4,6 +4,8 @@
 作者的Web Service发布页面: 
 [service.bayesian.top](https://service.bayesian.top)
 
+前端部署应用
+[https://tools.bayesian.top/idiom/](https://tools.bayesian.top/idiom/)
 ## 语料库
 中华新华字典数据库。收录包括 14032 条歇后语，16142 个汉字，264434 个词语，31648 个成语。
 
